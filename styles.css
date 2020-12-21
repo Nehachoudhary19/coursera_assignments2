@@ -1,0 +1,133 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+
+    background-color: #eee;
+    font-family: cursive;
+}
+.row{
+margin-top:0%;
+margin-bottom:4%;
+
+}
+#container{
+   width:100%;
+   overflow:none;
+}
+#menu-title{
+          text-align:center;
+           }
+
+#header-nav {
+	background-color: #E0F9C1;
+	border: 0;
+	border-radius: 0;       
+}
+.navbar-brand {
+	font-size: 1.25em;
+	text-align: left;
+	text-transform: uppercase;
+	margin: 15px 0px 15px -15px ;
+        padding:20px;
+}
+
+#nav-list a {
+	text-align:right;
+        }
+#nav-list a:hover {
+	background-color: #60E9FF;
+         text-align:right;
+}  
+#chicken-title {
+	border: 1px solid black;
+	box-shadow: 0 0 5px #3F0C1F;
+	margin: 15px;
+	background-color: #BFCFFF;
+        text-align:center;
+}
+#chicken-text {
+	padding: 0 10px 5px;
+        text-align:left;
+        margin:0 0 10px;        
+}
+
+#beef-title {
+	border: 1px solid black;
+	box-shadow: 0 0 5px #3F0C1F;
+	margin: 15px;
+	background-color: #BFCFFF;
+        text-align:center;
+}
+#beef-text {
+	padding: 0 10px 5px;
+        text-align:left;
+        margin:0 0 10px;        
+
+}
+
+#sushi-title {
+	border: 1px solid black;
+	box-shadow: 0 0 5px #3F0C1F;
+	margin: 15px;
+	background-color: #BFCFFF;
+        text-align:center;
+}
+#sushi-text {
+	padding: 0 10px 5px;
+        text-align:left;
+        margin:0 0 10px;     
+}
+#collapsable-nav.collapse.navbar-collapse
+{
+padding:0px 15px;
+}
+
+
+#main-content footer {
+	padding-left: 2%;
+        padding-top:55px;
+         height:auto;
+         margin:2.5%;
+         width:90%;
+        border:5px solid black;
+}
+
+/********** for desktop view  **********/
+@media (min-width: 992px) {
+  .col-md-4 {
+  	float: left;
+        width: 33.33%;
+  }
+}
+/********** for tablet view  **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6,.col-md-12 {
+    float:left;
+  }
+  .col-md-6{
+    width: 50%;
+  }
+  .col-md-12 {
+    margin-left: -10px;
+    width: 100%;
+  }
+   .#sushi-title{
+     margin-right:65px;
+     width:100px
+     }
+  
+}
+/***********for mobile view*********/
+@media (min-width: 0px) and (max-width: 767px) {
+  .col-sm-12 {
+  	float: left;
+        width: 100%;
+  }
+  #sushi-title{
+    margin-right: 30px;
+  }
+}
+
+
